@@ -4,12 +4,16 @@
 @import 'base/reset.scss';
 @import 'base/variables.scss';
 
-// Components
-@import 'components/menus';
-@import 'components/sections';
+
+
+// Individual Components
 @import 'components/headings';
+@import 'components/menus';
 @import 'components/image-galleries';
 @import 'components/form';
+@import 'components/slider';
+
+// Main Layout
+@import 'components/sections';
 @import 'components/nav';
 @import 'components/footer';
-@import 'components/slider';
