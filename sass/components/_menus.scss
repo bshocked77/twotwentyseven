@@ -1,0 +1,44 @@
+#menu-items{
+  font-family: $main-font;
+  font-size: 14px;
+  text-transform: uppercase;
+   ul,li{
+    display: inline-block;
+  }
+}
+
+nav {
+  #menu-items{
+    float: right;
+    font-family: $main-font;
+    li{
+      margin-right: 20px;
+
+      &:hover,
+      &:active,
+      &:focus{
+        color: #0f91e2;
+      }
+    }
+
+  }
+}
+
+
+footer{
+  #menu-items{
+    color: #ffffff;
+    margin-bottom: 30px;
+
+    li{
+      margin: 0px 10px;
+
+      &:hover,
+      &:active,
+      &:focus{
+        color: #0f91e2;
+      }
+    }
+  }
+
+}

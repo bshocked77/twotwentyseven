@@ -1,0 +1,38 @@
+footer{
+  text-align: center;
+  width: 100%;
+  background-color: #000000;
+  padding: 90px 0px;
+
+  hr{
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  footer{
+    #menu-items{
+      width: 370px;
+      margin: auto;
+      ul{
+        padding: 0px;
+        li{
+          padding: 10px 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  footer{
+    padding: 40px 0px;
+    #menu-items{
+      width: auto;
+      margin: auto;
+      ul, li{
+        display: block;
+      }
+    }
+  }
+}

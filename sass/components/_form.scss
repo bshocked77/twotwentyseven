@@ -1,0 +1,37 @@
+form{
+  input{
+    font-family: $main-font;
+    font-size: $body-size;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #9a9a9a;
+
+    &.cta{
+      border: 0px;
+      color: #ffffff;
+      background-color: #df2d2d;
+      text-align: center;
+      padding: 11px 30px;
+      text-transform: uppercase;
+      margin-left: 5px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 602px) {
+  form{
+    input.cta{
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  form{
+    input{
+      margin-top: 20px;
+    }
+  }
+}

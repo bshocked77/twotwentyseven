@@ -1,0 +1,49 @@
+/* Image Slider styling */
+#hero-slice{
+    .bx-wrapper{
+      border: 0px;
+      box-shadow: unset;
+      margin-bottom: 40px;
+
+      .bx-pager,
+      .bx-controls-auto{
+        position: absolute;
+        bottom: 5%;
+      }
+
+      .bx-pager.bx-default-pager a{
+        border-radius: 0px;
+        border: 2px solid white;
+        background: unset;
+      }
+
+      .bx-pager.bx-default-pager a:hover,
+      .bx-pager.bx-default-pager a.active,
+      .bx-pager.bx-default-pager a:focus{
+        background: #ffffff;
+      }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+    #hero-slice{
+          .bx-wrapper{
+
+            .bx-pager,
+            .bx-controls-auto{
+              position: absolute;
+              bottom: -25px;
+            }
+
+            .bx-pager.bx-default-pager a{
+              border: 2px solid black;
+            }
+
+            .bx-pager.bx-default-pager a:hover,
+            .bx-pager.bx-default-pager a.active,
+            .bx-pager.bx-default-pager a:focus{
+              background: #000000;
+            }
+        }
+    }
+}

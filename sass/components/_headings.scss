@@ -1,0 +1,57 @@
+h1{
+  font-family: $main-font;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+h2{
+  font-family: $main-font;
+  font-size: $h2-size;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+
+.title{
+  text-align: center;
+  hr{
+    display: inline-block;
+    width: 40%;
+  }
+
+  h2{
+    padding: 0px 15px;
+  }
+  &.overview{
+    hr{
+      width: 36%;
+    }
+  }
+}
+
+@media only screen and (max-width: 825px) {
+    .title{
+      hr{
+        width: 36%;
+      }
+      &.overview hr{
+       width: 28%;
+     }
+   }
+}
+
+@media only screen and (max-width: 590px) {
+    .title{
+      h2{
+        margin: 0px;
+      }
+      hr{
+        width: 75%;
+      }
+      &.overview hr{
+       width: 75%;
+     }
+   }
+}
